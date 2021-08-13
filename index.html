@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./simpleicons/css/simple-line-icons.css">
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-dark">
+            <div class="container-fluid justify-content-between">
+                <a class="navbar-brand" href="#">Nepathya Worshop</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ms-md-5 me-auto mb-2 mb-md-0">
+                        <li class="nav-item px-3">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown px-3">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" >Services</a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Service 1</a></li>
+                              <li><a class="dropdown-item" href="#">Service 2</a></li>
+                              <li><a class="dropdown-item" href="#">Service 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="image-slider" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#image-slider" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#image-slider" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#image-slider" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/slider1.jpg" class="d-block w-100" alt="" />
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Slider Image One.</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                                accumsan neque non urna mollis, ac convallis leo iaculis.
+                            </p>
+                            <p>
+                                <a class="btn btn-lg btn-primary" href="#">Learn more</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/slider2.jpg" class="d-block w-100" alt="" />
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Slider Image Two.</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                                accumsan neque non urna mollis, ac convallis leo iaculis.
+                            </p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/slider3.jpg" class="d-block w-100" alt="" />
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Slider Image Three.</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                                accumsan neque non urna mollis, ac convallis leo iaculis.
+                            </p>
+                            <p>
+                                <a class="btn btn-lg btn-primary" href="#">Learn more</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#image-slider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#image-slider" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+        <div class="container">
+            <div class="pricing-section">
+                <div class="text-center mt-3">
+                    <h1 class="display-4 fw-normal">Pricing</h1>
+                    <p class="fs-5 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan
+                        neque non urna mollis. GFusce accumsan neque non urna mollis</p>
+                </div>
+
+                <div class="row my-5">
+                    <div class="col-md-4">
+                        <div class="card text-center shadow-sm mb-4">
+                            <div class="card-header">
+                                <h4>Free</h4>
+                            </div>
+                            <div class="card-body">
+                                <h1>$0<span class="text-muted fw-light">/mo</span></h1>
+                                <ul class="list-unstyled">
+                                    <li>10 users included</li>
+                                    <li>2 GB of storage</li>
+                                    <li>Email support</li>
+                                    <li>Help center access</li>
+                                    <button class="btn btn-lg btn-outline-primary w-100 mt-3">Get Started</button>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card text-center border-primary shadow-sm mb-4">
+                            <div class="card-header bg-primary">
+                                <h4 class="text-white">Standard</h4>
+                            </div>
+                            <div class="card-body">
+                                <h1>$15<span class="text-muted fw-light">/mo</span></h1>
+                                <ul class="list-unstyled">
+                                    <li>10 users included</li>
+                                    <li>2 GB of storage</li>
+                                    <li>Email support</li>
+                                    <li>Help center access</li>
+                                    <button class="btn btn-lg btn-primary w-100 mt-3">Get Started</button>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card text-center shadow-sm mb-4">
+                            <div class="card-header">
+                                <h4>Enterprise</h4>
+                            </div>
+                            <div class="card-body">
+                                <h1>$50<span class="text-muted fw-light">/mo</span></h1>
+                                <ul class="list-unstyled">
+                                    <li>10 users included</li>
+                                    <li>2 GB of storage</li>
+                                    <li>Email support</li>
+                                    <li>Help center access</li>
+                                    <button class="btn btn-lg btn-outline-primary w-100 mt-3">Get Started</button>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="featured-section">
+                <div class="row align-items-center">
+                    <div class="col-md-7">
+                        <h2>First feature heading. <span class="text-muted">It looks good.</span></h2>
+                        <p class="lead">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan neque non urna
+                            mollis, ac convallis leo iaculis. Nullam dignissim imperdiet felis, in sollicitudin nibh
+                            accumsan a. Duis in lacinia orci. Aliquam enim lacus, condimentum ac orci in, iaculis
+                            feugiat elit. Ut bibendum quam diam. Phasellus quam massa, ultrices faucibus gravida eget,
+                            lobortis non purus. Ut non diam erat.
+                        </p>
+                    </div>
+                    <div class="col-md-5">
+                        <img class="img-fluid" src="./images/feat1.jpg">
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="row align-items-center">
+                    <div class="col-md-7 order-md-2">
+                        <h2>Second feature heading. <span class="text-muted">It looks good.</span></h2>
+                        <p class="lead">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan neque non urna
+                            mollis, ac convallis leo iaculis. Nullam dignissim imperdiet felis, in sollicitudin nibh
+                            accumsan a. Duis in lacinia orci. Aliquam enim lacus, condimentum ac orci in, iaculis
+                            feugiat elit. Ut bibendum quam diam. Phasellus quam massa, ultrices faucibus gravida eget,
+                            lobortis non purus. Ut non diam erat.
+                        </p>
+                    </div>
+                    <div class="col-md-5 order-md-1">
+                        <img class="img-fluid" src="./images/feat2.jpg">
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="row align-items-center">
+                    <div class="col-md-7">
+                        <h2>Third feature heading. <span class="text-muted">It looks good.</span></h2>
+                        <p class="lead">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan neque non urna
+                            mollis, ac convallis leo iaculis. Nullam dignissim imperdiet felis, in sollicitudin nibh
+                            accumsan a. Duis in lacinia orci. Aliquam enim lacus, condimentum ac orci in, iaculis
+                            feugiat elit. Ut bibendum quam diam. Phasellus quam massa, ultrices faucibus gravida eget,
+                            lobortis non purus. Ut non diam erat.
+                        </p>
+                    </div>
+                    <div class="col-md-5">
+                        <img class="img-fluid" src="./images/feat3.jpg">
+                    </div>
+                </div>
+
+                <hr>
+            </div>
+
+            <div class="call-to-action bg-primary p-3">
+                <h2 class="text-white m-0 text-center">
+                    Get your subscription now !
+                    <button class="btn btn-lg btn-danger" data-bs-toggle="modal" data-bs-target="#simple-modal">Get Started</button>
+                </h2>
+            </div>
+
+            <hr>
+
+-            <div class="contact-form mb-4">
+                <div class="text-center">
+                    <h1 class="display-4 fw-normal">Contact Us</h1>
+                    <p class="fs-4 text-muted">Feel free to contact us..!! Usually we reply within 24 hours...</p>
+                </div>
+
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center">
+                        <div class="mb-5">
+                            <div class="icon">
+                                <i class="fs-1 text-primary icon-envelope"></i>
+                            </div>
+                            <h4>anilcodes60@gmail.com</h4>
+                        </div>
+                        <div class="mb-5">
+                            <div class="icon">
+                                <i class="fs-1 text-primary icon-location-pin"></i>
+                            </div>
+                            <h4>Butwal-8, Rupandehi, NP</h4>
+                        </div>
+                        <div>
+                            <div class="icon">
+                                <i class="fs-1 text-primary icon-phone"></i>
+                            </div>
+                            <h4>+9779812345678</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <form class="border p-5 rounded shadow-lg">
+                            <div class="form-floating mb-4">
+                                <input class="form-control" type="text" placeholder="Enter name">
+                                <label>Full Name</label>
+                            </div>
+                            <div class="form-floating mb-4">
+                                <input class="form-control" type="text" placeholder="Enter email">
+                                <label>Email</label>
+                            </div>
+                            <div class="form-floating mb-4">
+                                <input class="form-control" type="text" placeholder="Enter subject">
+                                <label>Subject</label>
+                            </div>
+                            <div class="form-floating mb-4">
+                                <textarea class="form-control" placeholder="Enter message" style="height: 150px;"></textarea>
+                                <label>Message</label>
+                            </div>
+
+                            <div class="text-center">
+                                <button class="btn btn-primary btn-lg px-5">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="text-center bg-dark py-3">
+        <p class="text-white m-0">All right reserved © 2021 Nepathya College.</p>
+    </footer>
+
+
+    <!-- Call to action modal -->
+
+    <div class="modal fade" id="simple-modal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Enter your email</h5>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <input class="form-control" type="text" placeholder="jhondoe@email.com">
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    <button class="btn btn-primary">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
